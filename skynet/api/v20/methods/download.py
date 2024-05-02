@@ -164,7 +164,7 @@ def png(api_key=None, server=None, **kwargs):
 
 def fits(api_key=None, server=None, **kwargs):
     """
-    Download image(s) in JPEG format
+    Download image(s) in FITS format
 
     :param str api_key: optional API access key
     :param str server: optional API server (for testing)

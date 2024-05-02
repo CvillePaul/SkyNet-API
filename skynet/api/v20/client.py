@@ -36,7 +36,7 @@ except (configparser.NoSectionError, configparser.NoOptionError):
 
 try:
     with open(os.path.normpath(os.path.expanduser('~/.skynet/API_KEY')),
-              'rU') as f:
+              'r') as f:
         API_KEY = f.read().strip()
 except (IOError, OSError):
     API_KEY = None
