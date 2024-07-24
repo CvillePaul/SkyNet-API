@@ -1,3 +1,4 @@
 *.pyc
 *.csv
 *.zip
+skynet/api/v20/__pycache__/client.cpython-312.pyc
